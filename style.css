@@ -1,18 +1,105 @@
-h5{
-    background-color: aqua;
-    color: black;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-address{
-    background-color: rgb(186, 172, 200);
-    color: black;
+body {
+  background-color: rgb(4, 1, 33);
+  color: rgb(251, 251, 251);
+  font-family: "Oswald", sans-serif;
 }
 
-p{
-    background-color: antiquewhite;
-    color: black;
+hr {
+  background: #ffffff;
+  height: 3%;
 }
-a{
-    background-color: black;
-    color: aliceblue;
+
+.navigation {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(8, 8, 47);
+  height: 100px;
+  max-width: 100%;
 }
+
+.left a {
+  font-family: "Orbitron", sans-serif;
+  display: flex;
+  font-size: 2rem;
+  font-weight: 800;
+  letter-spacing: 7px;
+  text-decoration: none;
+  color: white;
+  text-shadow: 0 0 10px white;
+}
+.left span {
+  color: aqua;
+  text-shadow: 0 0 10px rgb(10, 212, 235);
+}
+
+.right a {
+  text-decoration: none;
+  color: white;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+  margin: 0 20px;
+}
+.right a:hover {
+  color: rgb(23, 235, 217);
+  font-size: 1.05rem;
+}
+
+.firstsection {
+  display: flex;
+  justify-content: space-around;
+  margin: 34px;
+}
+
+.leftSection {
+  display: inline;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 2rem;
+  margin: 60px 0;
+  border: 45px solid rgb(4, 1, 33);
+  padding: 45px;
+  color: white;
+}
+
+.leftSection span {
+  color: rgb(10, 212, 235);
+  text-shadow: 0 0 10px rgb(13, 255, 235);
+}
+
+.rightSection img {
+  width: 80%;
+  margin: 70px 0;
+}
+
+#element {
+  color: rgb(10, 212, 235);
+  text-shadow: 0 0 10px rgb(13, 255, 235);
+}
+
+.secondsection {
+  justify-content: space-around;
+  margin: 45%;
+  margin-top: 50px;
+  margin-left: 150px;
+  margin-right: auto;
+  height: 100px;
+}
+
+.text-gray {
+  color: rgb(12, 222, 222);
+  justify-content: space-around;
+}
+
+
+
+
+
+
+
