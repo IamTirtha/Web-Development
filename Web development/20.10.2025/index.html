@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Event BUbbling Topic</title>
+  </head>
+  <style>
+    .grandparents {
+      width: 300px;
+      height: 300px;
+      background-color: lightblue;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .parents {
+      width: 200px;
+      height: 200px;
+      background-color: lightgreen;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .child {
+      width: 100px;
+      height: 100px;
+      background-color: lightcoral;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+    }
+  </style>
+  
+  <body>
+    <div class="grandparents">
+      <div class="parents">
+        <div class="child">Child</div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
